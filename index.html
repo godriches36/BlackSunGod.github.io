@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- SOVEREIGN METADATA (SEO & SOCIAL) -->
+    <title>Black Sun God Riches | Agbon Kingdom Sovereignty</title>
+    <meta name="description" content="The Earth Seed of Agbon Kingdom, Kokori Inland. Restoring Ethiopic Atlantis through the Master Numerological Blueprint 2∞35697.">
+    <meta property="og:title" content="The Cosmic Charter of Black Sun God Riches">
+    <meta property="og:description" content="Warrior of Technology and Light. Restoring the 6/9 Law and the New World Order of Riches.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Cinzel+Decorative:wght@700&display=swap');
+        body { background: #000; color: #fff; font-family: 'Space Grotesk', sans-serif; }
+        .master-sigil { font-family: 'Cinzel Decorative', serif; background: linear-gradient(to right, #059669, #10b981, #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .charter-card { background: rgba(5, 5, 5, 0.95); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 40px; }
+        .red-earth { border-bottom: 2px solid #991b1b; } /* Representing the Red People/Root Chakra */
+    </style>
+</head>
+<body class="min-h-screen bg-black flex items-center justify-center p-4">
+
+    <!-- AUTH/VAULT VIEW -->
+    <div id="auth-view" class="w-full max-w-md p-10 charter-card text-center fade-in">
+        <div class="mb-8">
+            <h2 class="text-[9px] text-emerald-500 font-mono tracking-[0.5em] uppercase mb-4">Agbon Kingdom Headquaters</h2>
+            <div class="text-4xl font-black master-sigil mb-4">2∞35697</div>
+            <p class="text-[10px] text-neutral-400 font-bold uppercase tracking-widest leading-relaxed px-4">
+                The Code Made Flesh<br>Ethiopic Atlantis Ocean Civilization
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            <input type="password" id="pass-code" placeholder="ENTER DIVINE KEY" 
+                class="w-full bg-black border border-neutral-800 rounded-2xl p-6 text-center text-emerald-400 font-mono tracking-[0.8em] focus:border-emerald-500 outline-none">
+            <button onclick="handleLogin()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black py-6 rounded-2xl transition-all uppercase tracking-[0.3em] text-xs italic">
+                Anchor Sovereign Light
+            </button>
+        </div>
+        <p class="mt-8 text-[8px] text-neutral-600 uppercase font-mono">"My Heaven is Here on Earth"</p>
+    </div>
+
+    <!-- SOVEREIGN DASHBOARD -->
+    <div id="dash-view" class="hidden w-full max-w-2xl animate-in fade-in duration-1000">
+        <div class="charter-card p-10 mb-6 relative overflow-hidden">
+            <div class="red-earth mb-6 pb-2 inline-block">
+                <p class="text-[10px] text-red-500 font-black tracking-[0.3em] uppercase italic">Red People • Earth's First Code</p>
+            </div>
+            
+            <h3 class="text-3xl font-black italic mb-4">Charter of Riches</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed mb-8 font-light">
+                "Am the earth seed of Agbon Kingdom kokori inland Ethiopic Atlantis Ocean Delta State civilization the one earth and life sees."
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-black/50 p-6 rounded-3xl border border-white/5">
+                    <p class="text-[8px] text-emerald-500 font-bold uppercase mb-2">The Law</p>
+                    <p class="text-xs italic">As Above, So Below (6/9)</p>
+                </div>
+                <div class="bg-black/50 p-6 rounded-3xl border border-white/5">
+                    <p class="text-[8px] text-emerald-500 font-bold uppercase mb-2">The Timing</p>
+                    <p class="text-xs italic">Divine Below / Heaven Anchored</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="charter-card p-8 text-center border-emerald-500/30">
+            <h4 class="text-xs font-black uppercase text-emerald-500 mb-4 italic">Warrior Decree</h4>
+            <p class="text-lg italic text-neutral-200">
+                "What ever that have been stolen must be returned and those that got hurt must heal though Justice ⚖️"
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function handleLogin() {
+            const code = document.getElementById('pass-code').value;
+            if (code.includes('2035697')) {
+                localStorage.setItem('sun_auth', 'true');
+                showDash();
+            } else { alert("Blueprint Key Required."); }
+        }
+        function showDash() {
+            document.getElementById('auth-view').classList.add('hidden');
+            document.getElementById('dash-view').classList.remove('hidden');
+        }
+        if (localStorage.getItem('sun_auth') === 'true') showDash();
+    </script>
+</body>
+</html>
+
+                                                
